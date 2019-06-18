@@ -23,6 +23,6 @@ if __name__ == '__main__':
     # 解决中文搜索问题 对于：？=不进行转义
     root_url = quote(url,safe='/:?=')
     obj_spider = SpiderMain()
-    obj_spider.parser(root_url)
+    obj_spider.parser(root_url)  # 会报错
 
 
